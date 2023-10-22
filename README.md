@@ -53,7 +53,7 @@
                           'Master Data'[Value] = "WFH", 1,
                           'Master Data'[Value] = "HWFH", 0.5, 0)
 
-- Used Line and Custom Column chart, Slicer, Card, Matrix, Funnel Chart, and Area chart to visualise the data and do data Analysis.
+- Used Line and Clustered Column chart, Slicer, Card, Matrix, Funnel Chart, and Area chart to visualize the data and do data Analysis.
   
 - Used Page Navigator to change the pages.
   
