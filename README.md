@@ -2,7 +2,7 @@
 
 - Created a duplicate file, parameter and functions to manipulate the data
   
-- Created Calendar dimension using blank query :
+- Created Calendar dimension using the blank query :
         = List.Dates
           (#date(2022,1,1),
           365,
@@ -23,7 +23,7 @@
                             totaldays-nonworking
       WFH% = divide([Total WFH days],[Total Working days],0)
   
-- Cusstom Columns "
+- DAX Columns "
       Month = STARTOFMONTH('Master Data'[Date])
       Total Days Present = switch(true(),
                           'Master Data'[Value] = "P", 1,
@@ -53,9 +53,9 @@
                           'Master Data'[Value] = "WFH", 1,
                           'Master Data'[Value] = "HWFH", 0.5, 0)
 
-- Used Line and Custom Column charat, Slicer, Card, Matrix, Funnel Chart and Area chart to vizualise the data and do data Analysis.
+- Used Line and Custom Column chart, Slicer, Card, Matrix, Funnel Chart, and Area chart to visualise the data and do data Analysis.
   
-- Used Page navigator to change the pages.
+- Used Page Navigator to change the pages.
   
 - Added Bookmarks for easy navigation.
 
